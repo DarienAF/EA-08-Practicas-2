@@ -1,0 +1,225 @@
+/* Estilos globales */
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 120px 20px 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    position: fixed;
+    background-color: #3e2723;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.nav-menu-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-menu-link:hover {
+    color: #ffc107;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+aside {
+    position: fixed;
+    background-color: #fdd835;
+    top: 120px;
+    left: 0;
+    bottom: 20px;
+    width: 16%;
+    padding: 20px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección principal */
+section {
+    overflow-y: scroll;
+    padding: 20px;
+    position: fixed;
+    background-color: #fff;
+    top: 120px;
+    left: 18%;
+    bottom: 20px;
+    width: 80%;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título h2 */
+section h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Estilos para los artículos */
+section article {
+    flex: 1;
+    margin: 0 auto 20px; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffc107; 
+    text-align: center;
+}
+
+/* Estilos para los títulos h3 dentro de los artículos */
+section article h3 {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos dentro de los artículos */
+section article p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Pie de página */
+footer {
+    position: fixed;
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* Resaltado */
+.resaltado {
+    background-color: #ffc107;
+    color: #3e2723;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para la lista en el aside */
+.specialties-list {
+    list-style: none;
+    padding: 0;
+}
+
+.specialties-list li {
+    margin-bottom: 25px;
+}
+
+.specialties-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.specialties-list a:hover {
+    color: whitesmoke;
+}
+
+/* Estilos para la tabla de menú */
+.menu-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos para las filas de la tabla */
+.menu-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.menu-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Estilos para las celdas de la tabla */
+.menu-table td, .menu-table th {
+    padding: 10px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color: #3e2723;
+    color: white;
+}
+
+/* Estilos para la columna*/
+.menu-table a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.menu-table a:hover {
+    color: #ff9800;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #3e2723;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+tr:hover {
+    background-color: #ffc107;
+    cursor: pointer;
+}
